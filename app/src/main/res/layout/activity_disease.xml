@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uvapp.diagnosticvet.ui.activity.DiseaseActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_with_back_option_dark" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Seleccione información"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvReview"
+            android:layout_margin="16dp"
+            android:padding="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Reseña"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvExams"
+            android:layout_margin="16dp"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Exámenes\nComplementarios"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvTreatment"
+            android:layout_margin="16dp"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Tratamiento"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uvapp.diagnosticvet.ui.activity.DiagnosisResultsActivity">
+
+    <include layout="@layout/toolbar_with_back_option" />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:text="Seleccione posible patología"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_results"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

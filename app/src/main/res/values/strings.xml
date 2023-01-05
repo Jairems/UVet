@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Diagnostic Vet</string>
+
+    <string name="diseases_title">Patologías</string>
+</resources>
